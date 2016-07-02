@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		838377BF1D28607F00FB3498 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838377BE1D28607F00FB3498 /* AppDelegate.swift */; };
+		838377C11D28607F00FB3498 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838377C01D28607F00FB3498 /* ViewController.swift */; };
+		838377C41D28607F00FB3498 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 838377C21D28607F00FB3498 /* Main.storyboard */; };
+		838377C61D28607F00FB3498 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 838377C51D28607F00FB3498 /* Assets.xcassets */; };
+		838377C91D28607F00FB3498 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 838377C71D28607F00FB3498 /* LaunchScreen.storyboard */; };
+		838377D41D28608000FB3498 /* MiPrimeraAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838377D31D28608000FB3498 /* MiPrimeraAppTests.swift */; };
+		838377DF1D28608000FB3498 /* MiPrimeraAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838377DE1D28608000FB3498 /* MiPrimeraAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		838377D01D28608000FB3498 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 838377B31D28607F00FB3498 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 838377BA1D28607F00FB3498;
+			remoteInfo = MiPrimeraApp;
+		};
+		838377DB1D28608000FB3498 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 838377B31D28607F00FB3498 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 838377BA1D28607F00FB3498;
+			remoteInfo = MiPrimeraApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		838377BB1D28607F00FB3498 /* MiPrimeraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiPrimeraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		838377BE1D28607F00FB3498 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		838377C01D28607F00FB3498 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		838377C31D28607F00FB3498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		838377C51D28607F00FB3498 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		838377C81D28607F00FB3498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		838377CA1D28607F00FB3498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		838377CF1D28608000FB3498 /* MiPrimeraAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiPrimeraAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		838377D31D28608000FB3498 /* MiPrimeraAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiPrimeraAppTests.swift; sourceTree = "<group>"; };
+		838377D51D28608000FB3498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		838377DA1D28608000FB3498 /* MiPrimeraAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiPrimeraAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		838377DE1D28608000FB3498 /* MiPrimeraAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiPrimeraAppUITests.swift; sourceTree = "<group>"; };
+		838377E01D28608000FB3498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		838377B81D28607F00FB3498 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838377CC1D28608000FB3498 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838377D71D28608000FB3498 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		838377B21D28607F00FB3498 = {
+			isa = PBXGroup;
+			children = (
+				838377BD1D28607F00FB3498 /* MiPrimeraApp */,
+				838377D21D28608000FB3498 /* MiPrimeraAppTests */,
+				838377DD1D28608000FB3498 /* MiPrimeraAppUITests */,
+				838377BC1D28607F00FB3498 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		838377BC1D28607F00FB3498 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				838377BB1D28607F00FB3498 /* MiPrimeraApp.app */,
+				838377CF1D28608000FB3498 /* MiPrimeraAppTests.xctest */,
+				838377DA1D28608000FB3498 /* MiPrimeraAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		838377BD1D28607F00FB3498 /* MiPrimeraApp */ = {
+			isa = PBXGroup;
+			children = (
+				838377BE1D28607F00FB3498 /* AppDelegate.swift */,
+				838377C01D28607F00FB3498 /* ViewController.swift */,
+				838377C21D28607F00FB3498 /* Main.storyboard */,
+				838377C51D28607F00FB3498 /* Assets.xcassets */,
+				838377C71D28607F00FB3498 /* LaunchScreen.storyboard */,
+				838377CA1D28607F00FB3498 /* Info.plist */,
+			);
+			path = MiPrimeraApp;
+			sourceTree = "<group>";
+		};
+		838377D21D28608000FB3498 /* MiPrimeraAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				838377D31D28608000FB3498 /* MiPrimeraAppTests.swift */,
+				838377D51D28608000FB3498 /* Info.plist */,
+			);
+			path = MiPrimeraAppTests;
+			sourceTree = "<group>";
+		};
+		838377DD1D28608000FB3498 /* MiPrimeraAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				838377DE1D28608000FB3498 /* MiPrimeraAppUITests.swift */,
+				838377E01D28608000FB3498 /* Info.plist */,
+			);
+			path = MiPrimeraAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		838377BA1D28607F00FB3498 /* MiPrimeraApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 838377E31D28608000FB3498 /* Build configuration list for PBXNativeTarget "MiPrimeraApp" */;
+			buildPhases = (
+				838377B71D28607F00FB3498 /* Sources */,
+				838377B81D28607F00FB3498 /* Frameworks */,
+				838377B91D28607F00FB3498 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiPrimeraApp;
+			productName = MiPrimeraApp;
+			productReference = 838377BB1D28607F00FB3498 /* MiPrimeraApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		838377CE1D28608000FB3498 /* MiPrimeraAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 838377E61D28608000FB3498 /* Build configuration list for PBXNativeTarget "MiPrimeraAppTests" */;
+			buildPhases = (
+				838377CB1D28608000FB3498 /* Sources */,
+				838377CC1D28608000FB3498 /* Frameworks */,
+				838377CD1D28608000FB3498 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				838377D11D28608000FB3498 /* PBXTargetDependency */,
+			);
+			name = MiPrimeraAppTests;
+			productName = MiPrimeraAppTests;
+			productReference = 838377CF1D28608000FB3498 /* MiPrimeraAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		838377D91D28608000FB3498 /* MiPrimeraAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 838377E91D28608000FB3498 /* Build configuration list for PBXNativeTarget "MiPrimeraAppUITests" */;
+			buildPhases = (
+				838377D61D28608000FB3498 /* Sources */,
+				838377D71D28608000FB3498 /* Frameworks */,
+				838377D81D28608000FB3498 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				838377DC1D28608000FB3498 /* PBXTargetDependency */,
+			);
+			name = MiPrimeraAppUITests;
+			productName = MiPrimeraAppUITests;
+			productReference = 838377DA1D28608000FB3498 /* MiPrimeraAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		838377B31D28607F00FB3498 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Penta;
+				TargetAttributes = {
+					838377BA1D28607F00FB3498 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 646A7EVW9H;
+					};
+					838377CE1D28608000FB3498 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 646A7EVW9H;
+						TestTargetID = 838377BA1D28607F00FB3498;
+					};
+					838377D91D28608000FB3498 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 646A7EVW9H;
+						TestTargetID = 838377BA1D28607F00FB3498;
+					};
+				};
+			};
+			buildConfigurationList = 838377B61D28607F00FB3498 /* Build configuration list for PBXProject "MiPrimeraApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 838377B21D28607F00FB3498;
+			productRefGroup = 838377BC1D28607F00FB3498 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				838377BA1D28607F00FB3498 /* MiPrimeraApp */,
+				838377CE1D28608000FB3498 /* MiPrimeraAppTests */,
+				838377D91D28608000FB3498 /* MiPrimeraAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		838377B91D28607F00FB3498 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838377C91D28607F00FB3498 /* LaunchScreen.storyboard in Resources */,
+				838377C61D28607F00FB3498 /* Assets.xcassets in Resources */,
+				838377C41D28607F00FB3498 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838377CD1D28608000FB3498 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838377D81D28608000FB3498 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		838377B71D28607F00FB3498 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838377C11D28607F00FB3498 /* ViewController.swift in Sources */,
+				838377BF1D28607F00FB3498 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838377CB1D28608000FB3498 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838377D41D28608000FB3498 /* MiPrimeraAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838377D61D28608000FB3498 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838377DF1D28608000FB3498 /* MiPrimeraAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		838377D11D28608000FB3498 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 838377BA1D28607F00FB3498 /* MiPrimeraApp */;
+			targetProxy = 838377D01D28608000FB3498 /* PBXContainerItemProxy */;
+		};
+		838377DC1D28608000FB3498 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 838377BA1D28607F00FB3498 /* MiPrimeraApp */;
+			targetProxy = 838377DB1D28608000FB3498 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		838377C21D28607F00FB3498 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				838377C31D28607F00FB3498 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		838377C71D28607F00FB3498 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				838377C81D28607F00FB3498 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		838377E11D28608000FB3498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		838377E21D28608000FB3498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		838377E41D28608000FB3498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MiPrimeraApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.penta.MiPrimeraApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		838377E51D28608000FB3498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MiPrimeraApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.penta.MiPrimeraApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		838377E71D28608000FB3498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MiPrimeraAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.penta.MiPrimeraAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiPrimeraApp.app/MiPrimeraApp";
+			};
+			name = Debug;
+		};
+		838377E81D28608000FB3498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MiPrimeraAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.penta.MiPrimeraAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiPrimeraApp.app/MiPrimeraApp";
+			};
+			name = Release;
+		};
+		838377EA1D28608000FB3498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MiPrimeraAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.penta.MiPrimeraAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MiPrimeraApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		838377EB1D28608000FB3498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MiPrimeraAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.penta.MiPrimeraAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MiPrimeraApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		838377B61D28607F00FB3498 /* Build configuration list for PBXProject "MiPrimeraApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838377E11D28608000FB3498 /* Debug */,
+				838377E21D28608000FB3498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		838377E31D28608000FB3498 /* Build configuration list for PBXNativeTarget "MiPrimeraApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838377E41D28608000FB3498 /* Debug */,
+				838377E51D28608000FB3498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		838377E61D28608000FB3498 /* Build configuration list for PBXNativeTarget "MiPrimeraAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838377E71D28608000FB3498 /* Debug */,
+				838377E81D28608000FB3498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		838377E91D28608000FB3498 /* Build configuration list for PBXNativeTarget "MiPrimeraAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838377EA1D28608000FB3498 /* Debug */,
+				838377EB1D28608000FB3498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 838377B31D28607F00FB3498 /* Project object */;
+}
